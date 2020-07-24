@@ -145,7 +145,7 @@ double corelatie(struct pixel *vectorBMP, unsigned int lBMP, unsigned int hBMP, 
             suma2 = vectorSablon[(i-x)*11+j-y].b-medieSGrayscale;
             sumaCorelatie = sumaCorelatie+(suma1*suma2)/(deviatieFi*deviatieSablon);
         }
-    // sumaCorelatia
+    // sumaCorelatia sablon mare si sablon mic
     sumaCorelatie = sumaCorelatie/165;
     return sumaCorelatie;
 }
